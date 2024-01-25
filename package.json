@@ -1,0 +1,20 @@
+{
+  "name": "e2log",
+  "description": "A simple logging utility for TypeScript",
+  "license": "MIT",
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+
+  },
+  "exports": {
+    ".": {
+      "import": "./src/index.ts"
+    },
+    "./handlers": {
+      "import": "./src/handlers.ts"
+    }
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
