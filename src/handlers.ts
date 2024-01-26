@@ -1,7 +1,6 @@
-//import { Level } from "./index.ts";
-// 循環参照で良くない
+import { LogLevel } from "./loglevel.ts";
 
 export abstract class Handler {
-  constructor(level = )
+  constructor(level = number)
   emit()
 }
